@@ -1,0 +1,74 @@
+/* definições globais (vars e reset's) */
+
+:root {
+  --colorg1: #B19035;
+  --colorg2: #886A16;
+  --colorb1:  #275A94;
+  --colorb2: #0160B2;
+  --colorb3: #1E3C5E;
+  --color1: #fff;
+  --color2: #E0E0E0;
+  --color3: #C7C7C7;
+  --color4: #595959;
+  --color5: #404040;
+  --color6: #2E2E2E;
+  --color7: #111; 
+  --color8: #000; 
+}
+
+.cg1 {
+  color: --colorg1;
+}
+
+.cg2 {
+  color: --colorg2;
+}
+
+.cb1 {
+  color: --colorb1;
+}
+
+.cb2 {
+  color: --colorb2;
+}
+
+.cb3 {
+  color: --colorb3;
+}
+
+.c1 {
+  color: var(--color1);
+}
+
+.c4 {
+  color: --color4;
+}
+
+.c7 {
+  color: --color7;
+}
+
+.c8 {
+  color: --color8;
+}
+
+/* definições globais */
+
+body {
+  font-family: arial;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
