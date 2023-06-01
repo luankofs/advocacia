@@ -41,7 +41,7 @@
 }
 
 .c4 {
-  color: --color4;
+  color: var(--color4);
 }
 
 .c7 {
@@ -50,6 +50,15 @@
 
 .c8 {
   color: --color8;
+}
+
+.font-1-x {
+  font-size: 4em; 
+  font-family: 'Merriweather';
+}
+
+.font-2-x {
+  font-family: 'montserrat';
 }
 
 /* definições globais */
